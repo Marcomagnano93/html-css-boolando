@@ -86,6 +86,7 @@ main .row {
     top: 80%;
     left: 0;
     padding: 4px;
+    z-index: 50;
 }
 
 .sostenibile {
@@ -95,6 +96,7 @@ main .row {
     top: 80%;
     left: 10%;
     padding: 4px;
+    z-index: 50;
 }
 
 .like {
@@ -110,11 +112,41 @@ main .row {
     justify-content: center;
     align-items: center;
     opacity: 0;
+    z-index: 50;
     
 }
 
 .card:hover .like {
     opacity: 1;
+}
+
+.absolute {
+    position: absolute;
+    display: block;
+}
+
+hover {
+    position: absolute;
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.card__product:hover .hover {
+    opacity: 1;
+}
+
+card__caption {
+    position: absolute;
 }
 
 
