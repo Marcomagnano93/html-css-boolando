@@ -145,7 +145,7 @@ hover {
     opacity: 1;
 }
 
-card__caption {
+.card__caption {
     position: absolute;
 }
 
