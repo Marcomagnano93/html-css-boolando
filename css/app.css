@@ -26,6 +26,7 @@ ol {
     margin: 0 auto;
 }
 
+
 .col {
     width: calc(100% / 6);
     padding: 20px;
@@ -39,6 +40,7 @@ ol {
     flex-wrap: wrap;
 }
 
+
 /* header layout */
 .navbar {
     display: flex;
@@ -46,6 +48,7 @@ ol {
     background-color: orange;
     position: fixed;
     width: 100%;
+    z-index: 999;
     
 }
 
@@ -64,6 +67,69 @@ nav>ul {
     padding: 120px 8px 0;
     
 }
+
+main .row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card__product {
+    position: relative;
+}
+
+
+.discount {
+    background-color: red;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: 80%;
+    left: 0;
+    padding: 4px;
+}
+
+.sostenibile {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding: 4px;
+}
+
+.like {
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    position: absolute;
+    display: inline-block;
+    top: 2%;
+    right: 0;
+    padding: 12px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* DEBUG */
 
