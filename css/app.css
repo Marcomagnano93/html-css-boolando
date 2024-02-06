@@ -20,3 +20,42 @@ ul,
 ol {
 	list-style: none;
 }
+
+/* LAYOUT */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+}
+
+header>.container {
+    position: relative;
+}
+
+nav>ul {
+    display:flex;
+    
+}
+
+/* DEBUG */
+
+.debug .container {
+    border: 2px solid black;
+    
+}
+
+.debug .row {
+    border: 2px solid red;
+    padding: 0 20px;
+
+}
+
+.debug .col {
+    background-color: blueviolet;
+    border: 2px solid blue;
+    padding: 20px;
+}
+
