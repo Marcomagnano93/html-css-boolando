@@ -157,6 +157,10 @@ body {
     color: gray;
 }
 
+.card__price {
+    font-weight: 600;
+}
+
 .red__price {
     color: red;
 }
