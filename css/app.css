@@ -24,6 +24,7 @@ ol {
 /* LAYOUT */
 .container{
     margin: 0 auto;
+    max-width: 900px;
 }
 
 
@@ -35,12 +36,27 @@ ol {
 	width: calc(100% / 3);
 }
 
+.col50 {
+    width: 50%;
+    padding: 20px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* utilities */
 
+.flx {
+    display: flex;
+    
+    
+}
+
+main {
+    margin-bottom: 100px;
+}
 /* header layout */
 .navbar {
     display: flex;
@@ -176,6 +192,18 @@ body {
 .black__price {
     text-decoration: line-through;
     padding-left: 8px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+
+.f__navbar {
+    display: flex;
+    justify-content: space-between;
 }
 
 
