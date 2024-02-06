@@ -22,7 +22,12 @@ ol {
 }
 
 /* LAYOUT */
+.col {
+    width: calc(100% / 6);
+}
 
+
+/* header layout */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,7 +42,7 @@ header>.container {
 
 nav>ul {
     display:flex;
-    
+
 }
 
 /* DEBUG */
@@ -59,3 +64,8 @@ nav>ul {
     padding: 20px;
 }
 
+main>.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
